@@ -19,6 +19,11 @@ components:
     name: add_new_row_link
     properties: {align: left, background: '', bold: false, border: '', col_spacing: medium, col_widths: '', font: '', font_size: null, foreground: '', icon: 'fa:plus', icon_align: left, italic: false, role: null, spacing_above: small, spacing_below: small, text: New Row, tooltip: '', underline: false, url: '', visible: true, wrap_on: mobile}
     type: Link
+  - event_bindings: {change: file_loader_1_change}
+    layout_properties: {slot: footer}
+    name: file_loader_1
+    properties: {}
+    type: FileLoader
   layout_properties: {full_width_row: false, grid_position: 'ICMLKD,IEFDXV'}
   name: data_grid_1
   properties:

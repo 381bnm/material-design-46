@@ -104,6 +104,10 @@ class ProjectView(ProjectViewTemplate):
     self.header_row_panel.clear()
     self.header_row_panel.remove_from_parent()
     self.create_header_row()
+
+  def file_loader_1_change(self, file, **event_args):
+    """This method is called when a new file is loaded into this FileLoader"""
+    pass
     
 
 
