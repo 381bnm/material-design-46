@@ -107,7 +107,7 @@ class ProjectView(ProjectViewTemplate):
 
   def file_loader_1_change(self, file, **event_args):
     """This method is called when a new file is loaded into this FileLoader"""
-    
+    app_tables.table_6.add_row(name=file.name, media_obj=file)
     pass
     
 

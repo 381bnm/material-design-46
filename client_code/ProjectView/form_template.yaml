@@ -24,6 +24,21 @@ components:
     name: file_loader_1
     properties: {}
     type: FileLoader
+  - components:
+    - name: repeating_panel_2
+      properties: {item_template: ProjectView.RowTemplate2}
+      type: RepeatingPanel
+    layout_properties: {slot: footer}
+    name: data_grid_2
+    properties:
+      columns:
+      - {data_key: column_1, id: JKSDUP, title: Column 1}
+      - {data_key: column_2, id: VJQQOR, title: Column 2}
+      - {data_key: column_3, id: OJLQEN, title: Column 3}
+      - {data_key: column_4, id: EMELXW, title: Column 4}
+      - {data_key: column_5, id: DTMJZO, title: Column 5}
+      visible: true
+    type: DataGrid
   layout_properties: {full_width_row: false, grid_position: 'ICMLKD,IEFDXV'}
   name: data_grid_1
   properties:
