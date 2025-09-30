@@ -53,7 +53,7 @@ db_schema:
     server: full
     title: Rows
   table_6:
-    client: none
+    client: full
     columns: []
     server: full
     title: Table 6
